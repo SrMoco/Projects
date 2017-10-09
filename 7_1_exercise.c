@@ -8,6 +8,7 @@ int main(void)
     int number = 0;
     int *pointer = NULL;
 
+    number = 10;
     printf("\nnumber's adress: %p", &number);
     printf("\nnumber's value %d",number);
     printf("\nnumber's size %d bytes\n\n", sizeof(number));
